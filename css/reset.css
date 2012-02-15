@@ -1,0 +1,40 @@
+body,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6,
+.container p,
+.container ol,
+.container ul,
+.container li,
+.container table,
+.container caption,
+.container tbody,
+.container tfoot,
+.container thead,
+.container tr,
+.container th,
+.container td
+{
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body
+{
+	line-height: 1.5;
+	color: #000;
+	background: #fff;
+}
+.container a img
+{
+	border: none;
+}
