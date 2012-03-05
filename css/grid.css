@@ -6,7 +6,6 @@ http://daveden.wordpress.com/
 
 .container
 {
-	font-size: 16px;
 	margin: 3.125em auto; /* 16px x 3.125em = 50px */
 	max-width: 61.75em; /* 16px x 61.75em = 988px */
 }
