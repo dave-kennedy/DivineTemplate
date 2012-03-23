@@ -160,6 +160,7 @@ http://daveden.wordpress.com/
 .media
 {
 	margin-top: 0.8125em; /* 16px x 0.8125em = 13px */
+	overflow: hidden;
 }
 .media:first-child
 {
