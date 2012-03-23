@@ -6,7 +6,7 @@ http://daveden.wordpress.com/
 
 .container
 {
-	margin: 3.125em auto; /* 16px x 3.125em = 50px */
+	margin: auto;
 	max-width: 61.75em; /* 16px x 61.75em = 988px */
 }
 .columns
@@ -177,19 +177,22 @@ http://daveden.wordpress.com/
 	margin: 0.8125em; /* 16px x 0.8125em = 13px */
 	overflow: hidden;
 }
-@media (max-width: 988px) {
+@media (max-width: 988px)
+{
 	.container
 	{
 		font-size: 0.9375em; /* 16px x 0.9375em = 15px */
 	}
 }
-@media (max-width: 926px) {
+@media (max-width: 926px)
+{
 	.container
 	{
 		font-size: 0.875em; /* 16px x 0.875em = 14px */
 	}
 }
-@media (max-width: 865px) {
+@media (max-width: 865px)
+{
 	.col-1,
 	.col-2,
 	.col-3,
@@ -200,5 +203,13 @@ http://daveden.wordpress.com/
 		float: none;
 		margin-left: 0;
 		width: 100%;
+	}
+	.pre-1:first-child,
+	.pre-2:first-child,
+	.pre-3:first-child,
+	.pre-4:first-child,
+	.pre-5:first-child
+	{
+		margin-left: 0;
 	}
 }
