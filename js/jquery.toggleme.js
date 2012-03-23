@@ -70,6 +70,11 @@
 				}
 				
 				if (settings.animate == 'true') {
+					
+					if (body.css('display') != 'none') {
+						return false;
+					}
+					
 					title.css({
 						'margin-bottom': '0'
 					}).animate({
@@ -99,6 +104,11 @@
 				}
 				
 				if (settings.animate == 'true') {
+					
+					if (body.css('display') == 'none') {
+						return false;
+					}
+					
 					title.css({
 						'margin-bottom': titleMarginBottom
 					}).animate({
