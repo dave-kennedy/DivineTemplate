@@ -13,9 +13,24 @@
 .container p,
 .container ol,
 .container ul,
-.container li
+.container li,
+.container table
 {
-	margin-bottom: 1em; /* Varies */
+	margin-top: 1em; /* Varies */
+}
+.container h1:first-child,
+.container h2:first-child,
+.container h3:first-child,
+.container h4:first-child,
+.container h5:first-child,
+.container h6:first-child,
+.container p:first-child,
+.container ol:first-child,
+.container ul:first-child,
+.container li:first-child,
+.container table:first-child
+{
+	margin-top: 0;
 }
 .container h1,
 .container h2,

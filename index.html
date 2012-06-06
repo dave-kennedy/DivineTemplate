@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
 	<head>
-		<link href="css/reset.css" rel="stylesheet" />
-		<link href="css/grid.css" rel="stylesheet" />
+		<link href="DivineGrid/css/reset.css" rel="stylesheet" />
+		<link href="DivineGrid/css/grid.css" rel="stylesheet" />
 		<link href="css/style.css" rel="stylesheet" />
+        <link href="jquery.toggleme/css/jquery.toggleme.css" rel="stylesheet" />
 		<title>Divine</title>
 	</head>
 	<body>
@@ -160,7 +161,11 @@
 			</div>
 		</div> <!-- End of "container" -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script src="js/jquery.toggleme.min.js"></script>
-		<script src="js/script.js"></script>
+		<script src="jquery.toggleme/js/jquery.toggleme.min.js"></script>
+		<script>
+        $(function() {
+            $('.toggleme').toggleme();
+        });
+        </script>
 	</body>
 </html>
