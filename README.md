@@ -1,6 +1,4 @@
 # Divine Template
-## by David Kennedy
-## http://daveden.wordpress.com
 
 ### What is the Divine Template?
 
