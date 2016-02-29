@@ -3,4 +3,4 @@
 	url = git@github.com:Pajamaman/jquery.toggleme.git
 [submodule "DivineGrid"]
 	path = DivineGrid
-	url = git@github.com:Pajamaman/DivineGrid.git
+	url = git@github.com:dave-kennedy/DivineGrid.git

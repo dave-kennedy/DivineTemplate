@@ -1,7 +1,5 @@
-# Divine Template
+The Divine Template is a fluid, responsive CSS template based on the [Divine Grid](http://www.github.com/dave-kennedy/DivineGrid).
 
-### What is the Divine Template?
+For more information, see [here](https://daveden.wordpress.com/2012/02/23/the-divine-grid/).
 
-The Divine Template is a fluid, responsive CSS template based on the [Divine Grid](http://www.github.com/Pajamaman/DivineGrid).
-
-It comes bundled with [jquery.toggleme](http://www.github.com/Pajamaman/jquery.toggleme), which is not necessary to use the template, but is cool nonetheless.
+For a demo, see [here](http://dave-kennedy.github.io/DivineTemplate).
