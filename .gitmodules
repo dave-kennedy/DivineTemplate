@@ -1,6 +1,6 @@
 [submodule "jquery.toggleme"]
 	path = jquery.toggleme
-	url = git@github.com:Pajamaman/jquery.toggleme.git
+	url = https://github.com/Pajamaman/jquery.toggleme
 [submodule "DivineGrid"]
 	path = DivineGrid
-	url = git@github.com:dave-kennedy/DivineGrid.git
+	url = https://github.com/dave-kennedy/DivineGrid
